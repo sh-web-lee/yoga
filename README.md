@@ -1,14 +1,14 @@
 参考文档： http://markdown.p2hp.com/index.html
-# yoga-ui
+# yoga-vue
  
-## An Amazing Select Component For Vue2
+## An UI Component For Vue2
  
 ## Install & Use
  
 ```sh
-npm install yoga-ui
+npm install yoga-vue
 #or
-yarn add yoga-ui
+yarn add yoga-vue
 ```
  
 Import and register component
@@ -17,7 +17,7 @@ Import and register component
  
 ```js
 import Vue from 'vue'
-import YSelector from 'yoga-ui'
+import YSelector from 'yoga-vue'
 Vue.use(YSelector)
 ```
  
@@ -38,7 +38,7 @@ Vue.use(YSelector)
     @change="onChange" />
 </template>
 <script>
-import { YSelector } from 'vue-amazing-selector'
+import { YSelector } from 'yoga-vue'
 export default {
   components: {
     YSelector
