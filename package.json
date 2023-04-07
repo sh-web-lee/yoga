@@ -1,14 +1,18 @@
 {
-  "name": "yoga",
-  "version": "0.1.0",
-  "private": true,
+  "name": "yoga-vue",
+  "version": "0.1.1",
+  "private": false,
+  "main": "lib/yoga.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name yoga --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
